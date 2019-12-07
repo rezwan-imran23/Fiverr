@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+
+body{ 
+	font-family:arial;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    background-color: #000;
+    padding: 12px;
+}
+header h1{color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+header a{}
+strong{}
+a{
+    color: seagreen;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+b{}
+
+nav{border-bottom: 2px solid #e6e6e6;}
+nav ul{text-align: center;}
+nav ul li{
+    padding: 12px 25px;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: #807e7e;
+}
+nav ul li a:hover{
+    color: seagreen;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+section{
+    padding: 60px 0px 35px;
+}
+section h1{
+    font-size: 38px;
+}
+section h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #616060;
+}
+.business{
+    text-align: center;
+    padding: 0px 0px 30px;
+}
+.business h1{}
+.business h1 p{}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu-list{
+    width: 20%;
+    float: left;
+}
+.menu-list ul{}
+.menu-list ul li{
+    /* padding: 8px; */
+}
+.menu-list ul li a{
+    color: #656565;
+    padding: 5px 0px;
+    display: block;
+}
+.menu-list ul li a:hover{
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.photo-gallery{
+    width: 80%;
+    float: left;
+}
+
+.gallery{
+    width: 30.33%;
+    float: left;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.gallery img{
+    width: 100%;
+    border-radius: 3px;
+}
+.gallery a{
+    color: #525252;
+    font-size: 14px;
+}
+.gallery img:hover{
+	opacity: 0.3;
+	transition-duration: 0.5s;
+}
+
+footer{
+    background-color: #e6e6e6e6;
+}
+
+.footer-box{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.my-blog{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.my-blog h3{font-size: 30px;font-weight: 400;line-height: 100%;}
+.my-blog p{margin-top: 14px;font-size: 16px;line-height: 22px;color: #5a5a5a;}
